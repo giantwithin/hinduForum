@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<OpenSearchDescription xmlns="http://a9.com/-/spec/opensearch/1.1/">
+  <ShortName>The Hindu Forum</ShortName>
+  <Image width="16" height="16" type="image/x-icon">https://thehinduforum.org/favicon.ico</Image>
+  <Url type="text/html" template="https://thehinduforum.org/search.php?id={searchTerms}" />
+  <Url type="application/x-suggestions+json" template="https://thehinduforum.org/search.php?id={searchTerms}" />
+</OpenSearchDescription>
