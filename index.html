@@ -46,7 +46,6 @@ SITEMAP_URL "/sitemap.xml"
 	<link rel="prefetch" href="logo.png">
 	
 	<!-- <link rel="subresource" href="index.js"> -->
-	<script type="text/javascript" src="index.js"></script>
 
 	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 	<meta http-equiv="Default-Style" content="dark">
@@ -133,32 +132,27 @@ SITEMAP_URL "/sitemap.xml"
                         The Hindu Forum
                     </td>
                     <td style="text-align: right;">
-                        <table>
-                            <tr>
-                                <td>
-                                    <a href="#ayurveda" onclick="return ayu()">Ayurveda</a>
-                                </td>
-                                <td>
-                                    <a href="#war" onclick="return war()">War</a>
-                                </td>
-                                <td>
-                                    <a href="#channels" onclick="return channels()">Channels</a>
-                                </td>
-                                <td>
-                                    <a href="#blogs" onclick="return blogs()">Blog Roll</a>
-                                </td>
-                            </tr>
-                        </table>
+                        <nav>
+							<button class="my-button" id="my-button">
+								<i class="fas fa-bars">Button</i>
+							</button>
+								<ul id="mynav">
+									<li><a href="#ayurveda" onclick="return ayu()">Ayurveda</a></li>
+									<li><a href="#war" onclick="return war()">War</a><li>
+									<li><a href="#channels" onclick="return channels()">Channels</a></li>
+									<li><a href="#blogs" onclick="return blogs()">Blog Roll</a></li>
+								</ul>
+						</nav>
                     </td>
                 </tr>
             </table>
         </header>
         <section class='FlexContainer'>
             <div>
-				<img src="./images/yoga.png"/>
+				<a href="https://www.aypsite.org/149.html"><img src="./images/yoga.png"/></a>
             </div>
             <div>
-                <button>Learn Sanskrit</button>
+                <a href="https://www.youtube.com/playlist?list=PLbRMhDVUMngfYG2GVf2bQnIgsI0Y923g3">Learn Sanskrit</a>
 				<div class="card">
 					Mahabharat <br/>
 					<img src="./images/valmiki.png"><br/>
@@ -206,8 +200,8 @@ SITEMAP_URL "/sitemap.xml"
 				<a href="https://amzn.to/401a7Hb">International</a>
 			</div>
 			<div>
-				Charak Samhita <br/>
-				Natya Shastra <br/>
+				<a href="https://www.carakasamhitaonline.com/index.php?title=Main_Page">Charak Samhita</a><br/>
+				<a href="https://hinduism.stackexchange.com/">Hinduism Stackexchange</a><br/>
 				Smagita
 			</div>
 			
@@ -225,9 +219,9 @@ SITEMAP_URL "/sitemap.xml"
         <footer>
 			The Hindu Forum<br/>
 			<button id="myBtn">Affilaite Disclosure</button><br/>
-			Email<br/>
+			Email: contact @ hinduForum (dot) org<br/>
 			
-			telegram<br/>
+			<a href="https://t.me/giantwithin">telegram</a><br/>
 			
 			© Giant Within 2023
         </footer>
@@ -243,5 +237,6 @@ SITEMAP_URL "/sitemap.xml"
 		
 		</div> 
 
+	<script type="text/javascript" src="index.js"></script>
 	</body>
 </html>
